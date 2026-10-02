@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Personal portfolio and CV of a Server Engineer.">
+  <title>Your Name — Server Engineer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="grid-bg"></div>
+
+  <header class="navbar">
+    <a class="brand" href="#home"><span>./</span>yourname</a>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#experience">Experience</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <a class="nav-btn" href="cv.pdf" download>Download CV</a>
+  </header>
+
+  <main>
+    <section id="home" class="hero section">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="status-dot"></span> AVAILABLE FOR OPPORTUNITIES</div>
+        <h1>Server Engineer<br><span>& Infrastructure</span></h1>
+        <p class="hero-text">
+          I build, operate, and troubleshoot reliable server infrastructure —
+          with a growing focus on DevOps, automation, and cloud technologies.
+        </p>
+        <div class="hero-actions">
+          <a class="btn primary" href="#experience">Explore my work <span>→</span></a>
+          <a class="btn secondary" href="#contact">Let's connect</a>
+        </div>
+      </div>
+
+      <div class="terminal-card">
+        <div class="terminal-top">
+          <span></span><span></span><span></span>
+          <small>server@portfolio:~</small>
+        </div>
+        <div class="terminal-body">
+          <p><i>$</i> whoami</p>
+          <strong>yourname</strong>
+          <p><i>$</i> role</p>
+          <strong>Server Engineer</strong>
+          <p><i>$</i> focus</p>
+          <strong>Infrastructure / DevOps / Cloud</strong>
+          <p><i>$</i> status</p>
+          <strong class="green">● operational</strong>
+          <span class="cursor">_</span>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="section-label">01 / ABOUT</div>
+      <div class="two-col">
+        <div>
+          <h2>Infrastructure is<br><span>where I thrive.</span></h2>
+        </div>
+        <div class="about-copy">
+          <p>
+            I'm a Server Engineer focused on maintaining stable, secure, and
+            efficient infrastructure environments. My work covers server
+            deployment, virtualization, operating systems, networking,
+            monitoring, troubleshooting, and infrastructure operations.
+          </p>
+          <p>
+            Currently, I'm expanding my skill set toward <b>DevOps and Cloud
+            Engineering</b> — combining infrastructure knowledge with automation,
+            CI/CD, observability, and cloud architecture.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="experience" class="section">
+      <div class="section-label">02 / EXPERIENCE</div>
+      <h2>Professional <span>journey</span></h2>
+
+      <div class="timeline">
+        <article class="timeline-item">
+          <div class="timeline-date">2024 — PRESENT</div>
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <h3>Server Engineer</h3>
+            <p class="company">IT Consulting Company · Banking Client</p>
+            <ul>
+              <li>Deploy and maintain physical servers, virtualization platforms, and HCI environments.</li>
+              <li>Perform server installation, firmware upgrades, BIOS/RAID configuration, and BMC setup.</li>
+              <li>Manage virtual machines including provisioning, resource expansion, and operational support.</li>
+              <li>Troubleshoot Linux, virtualization, networking, storage, and infrastructure incidents.</li>
+              <li>Coordinate with vendors, principals, security teams, and application users during incidents.</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="timeline-item">
+          <div class="timeline-date">PREVIOUS</div>
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <h3>Previous Position</h3>
+            <p class="company">Company Name · Location</p>
+            <p>Replace this section with your previous role, responsibilities, and measurable achievements.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="skills" class="section">
+      <div class="section-label">03 / SKILLS</div>
+      <div class="section-heading-row">
+        <h2>Technical <span>stack</span></h2>
+        <p>Tools and technologies I work with.</p>
+      </div>
+
+      <div class="skill-grid">
+        <div class="skill-card">
+          <span class="skill-number">01</span>
+          <h3>Operating Systems</h3>
+          <div class="tags"><span>Linux</span><span>RHEL</span><span>Rocky Linux</span><span>Ubuntu</span><span>Solaris</span><span>Windows Server</span></div>
+        </div>
+        <div class="skill-card">
+          <span class="skill-number">02</span>
+          <h3>Virtualization & HCI</h3>
+          <div class="tags"><span>OLVM</span><span>VMware</span><span>HCI</span><span>KVM</span><span>VM Management</span></div>
+        </div>
+        <div class="skill-card">
+          <span class="skill-number">03</span>
+          <h3>Infrastructure</h3>
+          <div class="tags"><span>Server Hardware</span><span>RAID</span><span>BMC</span><span>Firmware</span><span>Storage</span><span>Monitoring</span></div>
+        </div>
+        <div class="skill-card">
+          <span class="skill-number">04</span>
+          <h3>Networking</h3>
+          <div class="tags"><span>TCP/IP</span><span>VLAN</span><span>Bonding</span><span>SSH</span><span>Routing</span><span>Cisco</span></div>
+        </div>
+        <div class="skill-card">
+          <span class="skill-number">05</span>
+          <h3>DevOps — Growing</h3>
+          <div class="tags"><span>Git</span><span>Linux</span><span>Bash</span><span>CI/CD</span><span>Docker</span><span>Automation</span></div>
+        </div>
+        <div class="skill-card">
+          <span class="skill-number">06</span>
+          <h3>Cloud — Growing</h3>
+          <div class="tags"><span>Cloud Architecture</span><span>Compute</span><span>Networking</span><span>IAM</span><span>Monitoring</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <div class="section-label">04 / PROJECTS</div>
+      <h2>Selected <span>work</span></h2>
+
+      <div class="project-grid">
+        <article class="project-card featured">
+          <div class="project-top"><span>01</span><span>INFRASTRUCTURE</span></div>
+          <h3>Server & HCI Deployment</h3>
+          <p>Physical server installation, cabling, BMC configuration, BIOS/RAID setup, virtualization preparation, and HCI deployment.</p>
+          <div class="project-tags"><span>Server</span><span>HCI</span><span>Virtualization</span></div>
+        </article>
+        <article class="project-card">
+          <div class="project-top"><span>02</span><span>OPERATIONS</span></div>
+          <h3>VM Lifecycle Management</h3>
+          <p>Provisioning, resource management, disk expansion, monitoring, access troubleshooting, and operational support for VMs.</p>
+          <div class="project-tags"><span>VM</span><span>Linux</span><span>Monitoring</span></div>
+        </article>
+        <article class="project-card">
+          <div class="project-top"><span>03</span><span>TROUBLESHOOTING</span></div>
+          <h3>Infrastructure Incident Response</h3>
+          <p>Investigating connectivity, SSH, storage, migration, console, service, and operating-system incidents across infrastructure.</p>
+          <div class="project-tags"><span>Incident</span><span>Linux</span><span>Networking</span></div>
+        </article>
+      </div>
+    </section>
+
+    <section id="certifications" class="section">
+      <div class="section-label">05 / CERTIFICATIONS</div>
+      <div class="cert-list">
+        <div><span>01</span><strong>Certification Name</strong><small>Issuing Organization · 2026</small></div>
+        <div><span>02</span><strong>Certification Name</strong><small>Issuing Organization · 2026</small></div>
+        <div><span>03</span><strong>Certification Name</strong><small>Issuing Organization · 2025</small></div>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact-section">
+      <div class="section-label">06 / CONTACT</div>
+      <div class="contact-box">
+        <div>
+          <p class="eyebrow">LET'S BUILD SOMETHING RELIABLE</p>
+          <h2>Have a project<br><span>in mind?</span></h2>
+        </div>
+        <div class="contact-links">
+          <a href="mailto:your.email@example.com">your.email@example.com <span>↗</span></a>
+          <a href="#" target="_blank">LinkedIn <span>↗</span></a>
+          <a href="#" target="_blank">GitHub <span>↗</span></a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <span>© 2026 Your Name</span>
+    <span>Built with HTML · CSS · JavaScript</span>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
